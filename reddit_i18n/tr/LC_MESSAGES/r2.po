@@ -65,7 +65,7 @@ msgstr "bize bir kartpostal gönder"
 
 #: ../../gold/reddit_gold/templates/goldinfopage.html:62
 msgid "become a member today."
-msgstr "hemen üye ol."
+msgstr "bugün üye ol."
 
 #: ../../gold/reddit_gold/templates/goldinfopage.html:63
 #, python-format
@@ -2225,27 +2225,27 @@ msgstr "Bu kullanıcı bu subreddit'te susturuldu."
 
 #: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
 msgid "A subreddit rule by that name already exists."
-msgstr ""
+msgstr "Bu isimle bir subreddit kuralı zaten var"
 
 #: r2/lib/errors.py:199
 msgid "No subreddit rule by that name exists."
-msgstr ""
+msgstr "Böyle bir subreddit kuralı yok."
 
 #: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
 msgid "This subreddit already has the maximum number of rules."
-msgstr ""
+msgstr "Bu subreddit'te zaten maksimum sayıda kural var."
 
 #: r2/lib/errors.py:201
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
-msgstr ""
+msgstr "Bu yorum sabitlenmemiş. Üst düzey bir yorum olduğundan emin olun."
 
 #: r2/lib/errors.py:202
 msgid "Cannot access this comment."
-msgstr ""
+msgstr "Yoruma ulaşılamıyor."
 
 #: r2/lib/errors.py:203
 msgid "Cannot access this post."
-msgstr ""
+msgstr "Gönderiye ulaşılamıyor."
 
 #: r2/lib/errors.py:204
 msgid "No conversation id passed."
@@ -2261,7 +2261,7 @@ msgstr ""
 
 #: r2/lib/errors.py:207
 msgid "The subreddit does not have this feature enabled."
-msgstr ""
+msgstr "Bu subreddit'te bu özellik aktif değil."
 
 #: r2/lib/errors.py:208
 msgid "Could not find thing object, it does not exist."
@@ -2333,7 +2333,7 @@ msgstr "sanki sen mükemmelsin"
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:12
 msgid "Funny 500 page message 6"
-msgstr "Sakin ol ve F5'e basmayı bırak"
+msgstr "Hiçbir şey kusursuz değildir"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -2716,11 +2716,11 @@ msgstr "arkadaşlar"
 
 #: r2/lib/menus.py:107
 msgid "messaging preferences"
-msgstr ""
+msgstr "mesajlaşma tercihleri"
 
 #: r2/lib/menus.py:108
 msgid "trusted users"
-msgstr ""
+msgstr "güvenilir kullanılıcılar"
 
 #: r2/lib/menus.py:109
 msgid "password/email"
@@ -2736,7 +2736,7 @@ msgstr "güvenlik"
 
 #: r2/lib/menus.py:114
 msgid "personalized ads"
-msgstr ""
+msgstr "özelleştirilmiş reklamlar"
 
 #: r2/lib/menus.py:117 r2/templates/messagecompose.html:35
 #: r2/templates/moderatormessagecompose.html:32 r2/templates/profilebar.html:185
@@ -2932,7 +2932,7 @@ msgstr "paylaş"
 
 #: r2/lib/menus.py:175 r2/templates/searchresultlink.html:102
 msgid "submitted"
-msgstr " "
+msgstr "gönderildi"
 
 #: r2/lib/menus.py:176
 msgid "upvoted"
@@ -2978,15 +2978,15 @@ msgstr "canlı"
 
 #: r2/lib/menus.py:192
 msgid "unpaid"
-msgstr "ödenmemişler"
+msgstr "ödenmemiş"
 
 #: r2/lib/menus.py:193
 msgid "pending"
-msgstr "bekleyenler"
+msgstr "bekleyen"
 
 #: r2/lib/menus.py:194 r2/templates/renderablecampaign.html:195
 msgid "rejected"
-msgstr "reddedilenler"
+msgstr "reddedilen"
 
 #: r2/lib/menus.py:195 r2/templates/renderablecampaign.html:181
 msgid "edited live"
@@ -8328,7 +8328,7 @@ msgstr ""
 
 #: r2/templates/newuseronboarding.html:95
 msgid "There are thousands of communities here. Go forth and find your people!"
-msgstr ""
+msgstr "Burada binlerce topluluk var. Git ve kendi halkını bul!"
 
 #: r2/templates/newuseronboarding.html:99
 msgid "OK"
@@ -8894,11 +8894,11 @@ msgstr "ortam ön izlemelerini o subreddit'in ortam tercihlerine göre genişlet
 
 #: r2/templates/prefoptions.html:166
 msgid "NSFW content"
-msgstr ""
+msgstr "müstehcen içerik"
 
 #: r2/templates/prefoptions.html:167
 msgid "hide images for NSFW/18+ content "
-msgstr ""
+msgstr "müstehcen/+18 olan fotoğrafları gizle"
 
 #: r2/templates/prefoptions.html:170
 msgid "(Don't show thumbnails or media previews for anything labeled NSFW)"
@@ -9379,7 +9379,7 @@ msgstr "işaretli"
 
 #: r2/templates/printablebuttons.html:82
 msgid "un-nsfw"
-msgstr "nsfw değil"
+msgstr "müstehcen değil"
 
 #: r2/templates/printablebuttons.html:82 r2/templates/printablebuttons.html:88
 msgid "unmarked"
@@ -9387,7 +9387,7 @@ msgstr "işaretsiz"
 
 #: r2/templates/printablebuttons.html:85
 msgid "spoiler"
-msgstr ""
+msgstr "spoiler"
 
 #: r2/templates/printablebuttons.html:88
 msgid "unspoiler"
@@ -9472,11 +9472,11 @@ msgstr "onaylanmış"
 
 #: r2/templates/printablebuttons.html:416
 msgid "low quality"
-msgstr ""
+msgstr "düşük kalite"
 
 #: r2/templates/printablebuttons.html:422
 msgid "high quality"
-msgstr ""
+msgstr "yüksek kalite"
 
 #: r2/templates/printablebuttons.html:432
 msgid "fraud"
@@ -9546,7 +9546,7 @@ msgstr ""
 
 #: r2/templates/profilebar.html:63 r2/templates/redditheader.html:107
 msgid "post karma"
-msgstr ""
+msgstr "gönderi karması"
 
 #: r2/templates/profilebar.html:68
 msgid "comment karma"
@@ -9950,7 +9950,7 @@ msgstr "öncelik"
 
 #: r2/templates/promotelinkbase.html:763
 msgid "pricing"
-msgstr ""
+msgstr "ücretlendirme"
 
 #: r2/templates/promotelinkbase.html:771
 msgid "price basis"
@@ -9971,7 +9971,7 @@ msgstr "fiyat"
 
 #: r2/templates/promotelinkbase.html:844
 msgid "deliver as fast as possible"
-msgstr ""
+msgstr "mümkün olduğu kadar hızlı teslim edin"
 
 #: r2/templates/promotelinkbase.html:858
 msgid "if you modify the budget of this paid campaign you will need to reauthorize payment by clicking the \"pay\" button"
@@ -11592,7 +11592,7 @@ msgstr "davet et"
 
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:8
 msgid "this thread is NSFW"
-msgstr "bu konu NSFW'dir"
+msgstr "bu konu müstehcendir"
 
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:10
 msgid "visit the thread directly to see its content"
